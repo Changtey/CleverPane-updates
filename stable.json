@@ -2,13 +2,13 @@
   "schema": 1,
   "channel": "stable",
   "release": {
-    "version": "1.0.25",
-    "published_at": "2026-08-12T14:22:00.912126Z",
-    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.25/CleverPane-Setup-1.0.25.exe",
-    "installer_sha256": "604cb5f4717e58a802df3deddf3f1193f21eff7ad1c31241e948d9731bab25b0",
-    "installer_size": 71860839,
-    "notes": "Shows the current CleverPane version, adds a clear Check for updates button in Settings, and checks GitHub when a new Office session starts with an explicit Yes or No update prompt.",
+    "version": "1.0.26",
+    "published_at": "2026-08-12T15:23:02.590555Z",
+    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.26/CleverPane-Setup-1.0.26.exe",
+    "installer_sha256": "e5974bbc4907774e4a3a170e89b15bf44b4971e3216f26e0a4f8e3aa41e7232c",
+    "installer_size": 71868438,
+    "notes": "Completes long Excel tasks without stopping after 48 successful actions, groups separate cell updates into one batch, stops true repeated-action loops, and automatically approves normal work inside Word, Excel, and PowerPoint.",
     "mandatory": false
   },
-  "signature": "3PZiCVDr8mTdShh9SJthS5elAaqH/wlNfIniPsqDotHnv/gU4r8zO0kRdFlb1xg7AfNuygo9MMk2Ul+Vvrb5Aw=="
+  "signature": "G785p465eXVe4bighmH7bR1feHtR8rJ+NPZtupNyyVL2vKHZc4/jOdx3yJWRhqBnRuuA0JUI6W2x/65qD6XMBA=="
 }
