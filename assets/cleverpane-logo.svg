@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">CleverPane</title>
+  <desc id="desc">A white AI sparkle on a dark rounded square.</desc>
+  <defs>
+    <linearGradient id="surface" x1="36" y1="28" x2="220" y2="228" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#242733"/>
+      <stop offset="0.52" stop-color="#15171e"/>
+      <stop offset="1" stop-color="#0b0c10"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="170" y1="48" x2="207" y2="89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9ee8ff"/>
+      <stop offset="1" stop-color="#6c7cff"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="54" fill="url(#surface)"/>
+  <rect x="13" y="13" width="230" height="230" rx="53" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M128 43C132 83 149 110 190 128C149 146 132 173 128 213C124 173 107 146 66 128C107 110 124 83 128 43Z" fill="#ffffff"/>
+  <path d="M187 51C189 63 195 70 207 73C195 77 189 84 187 96C184 84 179 77 166 73C179 70 184 63 187 51Z" fill="url(#accent)"/>
+</svg>
