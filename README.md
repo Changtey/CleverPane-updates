@@ -132,24 +132,26 @@ CleverPane checks the signed stable update notice once a day while Office is in 
 
 ## Current release
 
-### CleverPane 1.0.23
+### CleverPane 1.0.24
 
-- Fixes long Excel formatting tasks stopping too early.
-- Correctly identifies the Office-action safety limit instead of blaming the selected AI model.
-- Shows clearer messages for model access, usage limits, temporary service problems, authentication errors, timeouts, and oversized requests.
-- Preserves all Office edits completed before a safe pause.
+- Adds selectable chat text with quick copy and edit controls.
+- Keeps saved chat history synchronized when a previous message is edited.
+- Checks up to 500 contiguous Excel formula cells in one fast batch.
+- Groups nearby Excel reads to reduce repeated Office actions.
+- Keeps rate-limit and quota messages accurate when switching between saved accounts or keys.
+- Avoids duplicate automatic retries when CleverPane is already handling fallback.
 
-Download: [CleverPane 1.0.23](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.23)
+Download: [CleverPane 1.0.24](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.24)
 
 SHA-256:
 
 ```text
-854d8124b46b9ce82f5719e77e249da0cbcc651a4b8a7cd836b69c6ca6716726
+1050d149fb906cacaa1d467b2373fe37e4dee9212a1f6d47960ec2ea89247321
 ```
 
 ## Development and verification status
 
-CleverPane is actively developed. Version 1.0.23 passed **189 automated tests**, and the production agent-to-Excel editing path was also checked against a temporary live workbook.
+CleverPane is actively developed. Version 1.0.24 passed **195 automated checks**.
 
 Important current limits:
 
