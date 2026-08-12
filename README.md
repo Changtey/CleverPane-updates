@@ -128,30 +128,29 @@ Existing settings under `%APPDATA%\MSOfficeAI` are preserved during an update. T
 
 ### Secure automatic updates
 
-CleverPane checks the signed stable update notice once a day while Office is in use. A manual update check is also available in the top bar. The app downloads an update only after the user agrees, verifies it, waits for Word, Excel, and PowerPoint to close, and then starts the normal installer.
+CleverPane checks the signed GitHub update notice whenever a new Office session starts, then continues checking periodically while Office is in use. The current version is visible in the task pane, and Settings includes a clear **Check for updates** button. When a newer release is available, CleverPane shows the installed and available versions and asks **Yes** or **No** before downloading. It verifies the installer, waits for Word, Excel, and PowerPoint to close, and then starts the normal installer.
 
 ## Current release
 
-### CleverPane 1.0.24
+### CleverPane 1.0.25
 
-- Adds selectable chat text with quick copy and edit controls.
-- Keeps saved chat history synchronized when a previous message is edited.
-- Checks up to 500 contiguous Excel formula cells in one fast batch.
-- Groups nearby Excel reads to reduce repeated Office actions.
-- Keeps rate-limit and quota messages accurate when switching between saved accounts or keys.
-- Avoids duplicate automatic retries when CleverPane is already handling fallback.
+- Shows the current version in the CleverPane task pane and in Settings.
+- Adds a clear **Check for updates** button in Settings.
+- Checks GitHub whenever a new Office session starts.
+- Asks **Yes** or **No** before downloading an available update.
+- Preserves existing settings and connected AI accounts during the upgrade.
 
-Download: [CleverPane 1.0.24](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.24)
+Download: [CleverPane 1.0.25](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.25)
 
 SHA-256:
 
 ```text
-1050d149fb906cacaa1d467b2373fe37e4dee9212a1f6d47960ec2ea89247321
+604cb5f4717e58a802df3deddf3f1193f21eff7ad1c31241e948d9731bab25b0
 ```
 
 ## Development and verification status
 
-CleverPane is actively developed. Version 1.0.24 passed **195 automated checks**.
+CleverPane is actively developed. Version 1.0.25 passed **195 automated checks**.
 
 Important current limits:
 
