@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "release": {
+    "version": "1.0.22",
+    "published_at": "2026-08-12T09:24:47.607395Z",
+    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.22/CleverPane-Setup-1.0.22.exe",
+    "installer_sha256": "e6bcb4e5ae49151b7a1d776ea92a60a96975175ff360a8aae19b91bb934ea416",
+    "installer_size": 71847982,
+    "notes": "Adds secure software updates, a manual update check, verified downloads, safe installation after Office closes, and private personal learning controls.",
+    "mandatory": false
+  },
+  "signature": "7jfSanjPcM6P/bNVkhX5AfgiHd508ktiie49eppAxfZTdsRAsWmEu6HsZXiJncl1g62y9PsNkyNKVKCj2CwABA=="
+}
