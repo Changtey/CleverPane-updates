@@ -2,13 +2,13 @@
   "schema": 1,
   "channel": "stable",
   "release": {
-    "version": "1.0.23",
-    "published_at": "2026-08-12T10:40:45.364219Z",
-    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.23/CleverPane-Setup-1.0.23.exe",
-    "installer_sha256": "854d8124b46b9ce82f5719e77e249da0cbcc651a4b8a7cd836b69c6ca6716726",
-    "installer_size": 71854450,
-    "notes": "Fixes long Excel formatting tasks stopping too early, correctly reports the Office action safety limit instead of blaming the selected model, and improves model error messages.",
+    "version": "1.0.24",
+    "published_at": "2026-08-12T13:46:00.611732Z",
+    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.24/CleverPane-Setup-1.0.24.exe",
+    "installer_sha256": "1050d149fb906cacaa1d467b2373fe37e4dee9212a1f6d47960ec2ea89247321",
+    "installer_size": 71870109,
+    "notes": "Adds selectable chat text with copy and edit controls, speeds Excel formula checks by batching ranges, and improves rate-limit handling without duplicate retries.",
     "mandatory": false
   },
-  "signature": "LDnR0GP1VHwrkVMC9Xf8xerH4Cf2rTmVCvA7joz9uM2DaXBbQ4QyB/FDY1K15VYCuh/3zft7etLyeXVl5CSyBg=="
+  "signature": "1JybisKOX8wTsdqnHcvLSnXB7vxu8Nzbx8RdSX5KuZSd5e3Ms7lVi6NO/fSf8pyyqSi9lYTv2fCbdRYaOES/Dw=="
 }
