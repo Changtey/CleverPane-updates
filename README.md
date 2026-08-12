@@ -67,7 +67,7 @@ You provide and control your own AI access. Provider charges, limits, and availa
 
 CleverPane can use common images, PDFs, Word files, spreadsheets, presentations, and text files as request context. It can also capture the active Office window after significant work so the AI can visually check the result.
 
-Whole-screen sharing and web searches require confirmation because they can expose or transmit information outside the active Office file.
+Whole-screen sharing, web searches, file exports, and direct mouse or keyboard control require confirmation because they can expose information or affect something outside the active Office file. Normal work inside the active Word, Excel, or PowerPoint document runs automatically after the user requests the task.
 
 ### Personal learning, under your control
 
@@ -88,8 +88,9 @@ CleverPane is built around visible and reversible work:
 
 - It reads a file before changing it and targets the selected content when possible.
 - New Excel formulas are tested before being written.
-- Destructive actions require confirmation.
-- Completed edits are kept if a long task reaches its Office-action safety limit; the app pauses and asks the user to continue instead of repeatedly calling tools.
+- Normal reads, edits, formulas, and formatting inside the active Office file run without repeated approval prompts.
+- Whole-screen sharing, web searches, file exports, and direct mouse or keyboard control still require confirmation.
+- Long jobs can run up to a 500-action emergency ceiling. The same exact action is stopped after three repeats, while different successful actions can continue.
 - API secrets are encrypted with Windows Data Protection for the current Windows account.
 - Provider passwords stay on the provider's own sign-in page and are not requested by CleverPane.
 - Personal learning is local, inspectable, optional, and reversible.
@@ -132,25 +133,25 @@ CleverPane checks the signed GitHub update notice whenever a new Office session 
 
 ## Current release
 
-### CleverPane 1.0.25
+### CleverPane 1.0.26
 
-- Shows the current version in the CleverPane task pane and in Settings.
-- Adds a clear **Check for updates** button in Settings.
-- Checks GitHub whenever a new Office session starts.
-- Asks **Yes** or **No** before downloading an available update.
-- Preserves existing settings and connected AI accounts during the upgrade.
+- Completes long Excel jobs without stopping after 48 successful actions.
+- Detects a true loop by the same exact action repeating, while allowing different useful actions to continue.
+- Groups up to 500 separate Excel cell updates into one fast, validated action.
+- Runs normal work inside Word, Excel, and PowerPoint without repeated approval prompts.
+- Keeps confirmation for actions that can expose data or act outside the active Office document.
 
-Download: [CleverPane 1.0.25](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.25)
+Download: [CleverPane 1.0.26](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.26)
 
 SHA-256:
 
 ```text
-604cb5f4717e58a802df3deddf3f1193f21eff7ad1c31241e948d9731bab25b0
+e5974bbc4907774e4a3a170e89b15bf44b4971e3216f26e0a4f8e3aa41e7232c
 ```
 
 ## Development and verification status
 
-CleverPane is actively developed. Version 1.0.25 passed **195 automated checks**.
+CleverPane is actively developed. Version 1.0.26 passed **200 automated checks**.
 
 Important current limits:
 
@@ -163,7 +164,7 @@ Important current limits:
 
 - **The pane is not visible:** Open an Office file, select the CleverPane ribbon tab, and choose **Open Assistant**.
 - **A model cannot complete a request:** Read the specific message. It may indicate missing model access, an account usage limit, a temporary provider issue, an invalid key, or a long Office task that paused safely.
-- **A long task paused:** Review the completed work, then ask CleverPane to continue with the remaining part.
+- **A repeated action was stopped:** Review the completed work. Give a more specific instruction only if more work is genuinely needed.
 - **The model list is empty:** Reconnect the selected service or refresh its models in Settings.
 - **An update will not install:** Save and close Word, Excel, and PowerPoint, then try again.
 
