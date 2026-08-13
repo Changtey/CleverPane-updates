@@ -2,13 +2,13 @@
   "schema": 1,
   "channel": "stable",
   "release": {
-    "version": "1.0.28",
-    "published_at": "2026-08-13T06:11:32.761795Z",
-    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.28/CleverPane-Setup-1.0.28.exe",
-    "installer_sha256": "c45a0fd480b74f6378cdf1a5abcdfff3b15dc67b10ad47c5b7c938a4ea27576e",
-    "installer_size": 71945686,
-    "notes": "New installations now use the CleverPane folder under Program Files. Existing installations continue upgrading safely in their current folder, preserving settings and connected AI accounts.",
+    "version": "1.0.30",
+    "published_at": "2026-08-13T15:29:05.732205Z",
+    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.30/CleverPane-Setup-1.0.30.exe",
+    "installer_sha256": "c93dcc6532331eefb3d98d5695d5baed9904f990a51d8858b2de9d43af7cc268",
+    "installer_size": 71967965,
+    "notes": "CleverPane Free AI with Google sign-in and 15 free text requests per day. Improved Office 2013 through Microsoft 365 compatibility, faster single-instance startup, smoother long-response streaming, and reliability fixes.",
     "mandatory": false
   },
-  "signature": "B97kuUFNEBtzoDAH3qVo8AErLj3qr9F/3ON+wV252Doue64NwpnRQsWBCoyz9OmPK4PEkJgT+gZHWZpo1lzfAg=="
+  "signature": "HAzRsBScOfx8nv9q6SF+1c+nn/HpkXYVfEcnjb74L/InFbu0P6uFWAYGtNRfklxj+CfKYFzOxjjZ0qD9h/s8AA=="
 }
