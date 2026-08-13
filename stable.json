@@ -2,13 +2,13 @@
   "schema": 1,
   "channel": "stable",
   "release": {
-    "version": "1.0.26",
-    "published_at": "2026-08-12T15:23:02.590555Z",
-    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.26/CleverPane-Setup-1.0.26.exe",
-    "installer_sha256": "e5974bbc4907774e4a3a170e89b15bf44b4971e3216f26e0a4f8e3aa41e7232c",
-    "installer_size": 71868438,
-    "notes": "Completes long Excel tasks without stopping after 48 successful actions, groups separate cell updates into one batch, stops true repeated-action loops, and automatically approves normal work inside Word, Excel, and PowerPoint.",
+    "version": "1.0.27",
+    "published_at": "2026-08-13T05:50:52.237781Z",
+    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.27/CleverPane-Setup-1.0.27.exe",
+    "installer_sha256": "04f1ca27d98c64be5bc0931368d59a6ebc851193885e511e2e606f0771a8943c",
+    "installer_size": 71949873,
+    "notes": "Adds automatic file-health scans, one-click smart improvement for Word documents and Excel workbooks, PowerPoint visual intelligence and editable deck creation, and drag-and-drop Office file attachments.",
     "mandatory": false
   },
-  "signature": "G785p465eXVe4bighmH7bR1feHtR8rJ+NPZtupNyyVL2vKHZc4/jOdx3yJWRhqBnRuuA0JUI6W2x/65qD6XMBA=="
+  "signature": "rVgaiCInTinAy+Z0vTSe7AxcTtlQHaYkB8mN/GcYLZEkX2d9jyZAZ96AZgNerqAuh2aV32CZVGPLAjLk0kcqDA=="
 }
