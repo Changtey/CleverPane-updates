@@ -48,6 +48,15 @@ Examples:
 - Stops safely if the active document changes during a task.
 - Groups repeated Excel formatting into larger safe ranges when possible.
 
+### File intelligence and guided improvements
+
+When a Word document, Excel workbook, or PowerPoint presentation becomes active, CleverPane reads a bounded local snapshot and shows a measured file-health score, useful next actions, and **Review health** and **Improve file** controls. The opening scan is not sent to an AI service until the user sends a request.
+
+- **Word smart improvement:** reviews structure, dense paragraphs, typography, spacing, tables, and missing visual descriptions, then applies a reversible formatting and structure pass without changing facts or meaning.
+- **Excel Clean + Polish:** checks headers, formula errors, duplicates, mixed data types, blank regions, number formats, tables, freezing, and useful chart opportunities. The automatic polish does not change values or formulas.
+- **PowerPoint visual intelligence:** checks message titles, crowded text, overflow, overlaps, typography, visual support, and layout variety. It can improve an existing deck or build editable slides from a reviewed story plan.
+- Office files can be attached by dragging and dropping them directly onto the chat composer.
+
 ### AI services and models
 
 CleverPane supports several ways to connect an AI service:
@@ -133,25 +142,25 @@ CleverPane checks the signed GitHub update notice whenever a new Office session 
 
 ## Current release
 
-### CleverPane 1.0.26
+### CleverPane 1.0.27
 
-- Completes long Excel jobs without stopping after 48 successful actions.
-- Detects a true loop by the same exact action repeating, while allowing different useful actions to continue.
-- Groups up to 500 separate Excel cell updates into one fast, validated action.
-- Runs normal work inside Word, Excel, and PowerPoint without repeated approval prompts.
-- Keeps confirmation for actions that can expose data or act outside the active Office document.
+- Scans active Word, Excel, and PowerPoint files locally and shows a measured health score and useful next actions.
+- Adds one-click Word smart improvement and Excel Clean + Polish while preserving meaning, values, and formulas.
+- Adds PowerPoint visual intelligence, varied editable slide layouts, and reviewed smart-deck creation.
+- Adds drag-and-drop Office file attachments and a clearer activity display for long multi-step work.
+- Preserves existing settings and connected AI accounts during upgrade.
 
-Download: [CleverPane 1.0.26](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.26)
+Download: [CleverPane 1.0.27](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.27)
 
 SHA-256:
 
 ```text
-e5974bbc4907774e4a3a170e89b15bf44b4971e3216f26e0a4f8e3aa41e7232c
+04f1ca27d98c64be5bc0931368d59a6ebc851193885e511e2e606f0771a8943c
 ```
 
 ## Development and verification status
 
-CleverPane is actively developed. Version 1.0.26 passed **200 automated checks**.
+CleverPane is actively developed. Version 1.0.27 passed **216 automated checks**.
 
 Important current limits:
 
