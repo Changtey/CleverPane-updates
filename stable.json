@@ -2,13 +2,13 @@
   "schema": 1,
   "channel": "stable",
   "release": {
-    "version": "1.0.27",
-    "published_at": "2026-08-13T05:50:52.237781Z",
-    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.27/CleverPane-Setup-1.0.27.exe",
-    "installer_sha256": "04f1ca27d98c64be5bc0931368d59a6ebc851193885e511e2e606f0771a8943c",
-    "installer_size": 71949873,
-    "notes": "Adds automatic file-health scans, one-click smart improvement for Word documents and Excel workbooks, PowerPoint visual intelligence and editable deck creation, and drag-and-drop Office file attachments.",
+    "version": "1.0.28",
+    "published_at": "2026-08-13T06:11:32.761795Z",
+    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.28/CleverPane-Setup-1.0.28.exe",
+    "installer_sha256": "c45a0fd480b74f6378cdf1a5abcdfff3b15dc67b10ad47c5b7c938a4ea27576e",
+    "installer_size": 71945686,
+    "notes": "New installations now use the CleverPane folder under Program Files. Existing installations continue upgrading safely in their current folder, preserving settings and connected AI accounts.",
     "mandatory": false
   },
-  "signature": "rVgaiCInTinAy+Z0vTSe7AxcTtlQHaYkB8mN/GcYLZEkX2d9jyZAZ96AZgNerqAuh2aV32CZVGPLAjLk0kcqDA=="
+  "signature": "B97kuUFNEBtzoDAH3qVo8AErLj3qr9F/3ON+wV252Doue64NwpnRQsWBCoyz9OmPK4PEkJgT+gZHWZpo1lzfAg=="
 }
