@@ -59,19 +59,20 @@ When a Word document, Excel workbook, or PowerPoint presentation becomes active,
 
 ### AI services and models
 
-CleverPane supports several ways to connect an AI service:
+CleverPane requires Google sign-in before the side panel unlocks. Every signed-in customer can use CleverPane Free AI with no API key and 15 text requests per day.
 
-- CleverPane Free AI with Google sign-in, no API key, and 15 text requests per day.
+CleverPane Pro unlocks external AI services and advanced connections:
+
 - Official ChatGPT/Codex sign-in, including multiple isolated accounts.
 - OpenAI API.
 - Anthropic Claude.
 - Google AI Studio (Gemini), including multiple API keys.
-- DeepSeek, Kimi, MiniMax, xAI/Grok, 9Router, and OmniRoute.
+- DeepSeek, Kimi, MiniMax, xAI/Grok, 9Router, OpenRouter, OmniRoute, and Together AI.
 - Custom OpenAI-compatible and Anthropic-compatible services.
 
 CleverPane Free AI uses IBM Granite through CleverPane's secure Oracle service and Cloudflare Workers AI. It processes only the text a customer submits. The Free option can write, rewrite, summarize, and explain, but it cannot inspect, edit, or save Office files, use Office tools, inspect the screen, or browse the web.
 
-The available model list is detected from the selected service when supported. Reasoning levels are shown only when the chosen model supports them. Customers can connect their own supported provider for the full Office agent and its document-editing tools. Provider charges, limits, and availability are determined by that provider.
+The available model list is detected from the selected service when supported. Reasoning levels are shown only when the chosen model supports them. Pro customers can connect their own supported provider for the full Office agent and its document-editing tools. Provider charges, limits, and availability are determined by that provider.
 
 ### Attachments and visual checking
 
@@ -123,7 +124,7 @@ When a cloud AI service is selected, the information needed for the request is s
 - Desktop Microsoft Office 2013, 2016, 2019, 2021, 2024, or Microsoft 365.
 - 32-bit or 64-bit Office installed through Click-to-Run or Windows Installer.
 - An internet connection for cloud AI services, model discovery, web search, and software updates.
-- A Google account for CleverPane Free AI, or access to another supported AI service.
+- A Google account to sign in to CleverPane. A CleverPane Pro subscription is also required to connect external AI services.
 
 CleverPane does not support Office for the web, macOS, Android, iOS, or the Microsoft Store edition of Office.
 
@@ -134,7 +135,7 @@ CleverPane does not support Office for the web, macOS, Android, iOS, or the Micr
 3. Run `CleverPane-Setup-<version>.exe` as an administrator.
 4. Open a Word document, Excel workbook, or PowerPoint presentation.
 5. Open the **CleverPane** ribbon tab and choose **Open Assistant** if the pane is not already visible.
-6. In Settings, sign in with Google for CleverPane Free AI, or connect another supported AI service and select a model.
+6. The side panel will ask you to sign in with Google. After sign-in, use CleverPane Free AI or upgrade to CleverPane Pro to connect an external AI service.
 
 Existing settings under `%APPDATA%\MSOfficeAI` are preserved during an update. The legacy internal folder name remains for upgrade compatibility.
 
@@ -146,26 +147,26 @@ CleverPane checks the signed GitHub update notice whenever a new Office session 
 
 ## Current release
 
-### CleverPane 1.0.30
+### CleverPane 1.0.31
 
-- Added CleverPane Free AI with Google sign-in and 15 free text requests per day.
-- Added a clear Free-plan daily usage counter.
-- Improved support for 32-bit and 64-bit desktop Office from Office 2013 through Microsoft 365.
-- Improved startup speed, duplicate-process protection, long-response streaming, and general reliability.
+- Google sign-in is now required before the CleverPane side panel unlocks.
+- Free accounts can use only the built-in CleverPane Free AI model.
+- External providers, connected AI accounts, API keys, custom services, and advanced integrations now require CleverPane Pro.
+- The sign-in and plan rules are enforced by both the desktop app and CleverPane's secure server.
 - Existing settings and connected AI accounts remain preserved.
 - Updates remain optional and require the user's approval before installation.
 
-Download: [CleverPane 1.0.30](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.30)
+Download: [CleverPane 1.0.31](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.31)
 
 SHA-256:
 
 ```text
-c93dcc6532331eefb3d98d5695d5baed9904f990a51d8858b2de9d43af7cc268
+5e9001eec0dd95d9719cca0ff5ae21850b7c0d52053a58005c5b223e0898bda3
 ```
 
 ## Development and verification status
 
-CleverPane 1.0.30 passed **237 automated checks**. Six live Office tests were excluded from the automated run because they require interactive desktop Office applications. The signed update notice and installer metadata were also verified before publication.
+CleverPane 1.0.31 passed **279 automated checks**: 242 desktop checks and 37 server checks. Six live Office tests were excluded from the automated run because they require interactive desktop Office applications. The signed update notice and installer metadata were also verified before publication.
 
 Important current limits:
 

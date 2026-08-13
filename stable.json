@@ -2,13 +2,13 @@
   "schema": 1,
   "channel": "stable",
   "release": {
-    "version": "1.0.30",
-    "published_at": "2026-08-13T15:29:05.732205Z",
-    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.30/CleverPane-Setup-1.0.30.exe",
-    "installer_sha256": "c93dcc6532331eefb3d98d5695d5baed9904f990a51d8858b2de9d43af7cc268",
-    "installer_size": 71967965,
-    "notes": "CleverPane Free AI with Google sign-in and 15 free text requests per day. Improved Office 2013 through Microsoft 365 compatibility, faster single-instance startup, smoother long-response streaming, and reliability fixes.",
+    "version": "1.0.31",
+    "published_at": "2026-08-13T16:52:55.798771Z",
+    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.31/CleverPane-Setup-1.0.31.exe",
+    "installer_sha256": "5e9001eec0dd95d9719cca0ff5ae21850b7c0d52053a58005c5b223e0898bda3",
+    "installer_size": 71986693,
+    "notes": "Google sign-in is now required before CleverPane can be used. Free accounts use only CleverPane Free AI. OpenAI, Claude, Gemini, OpenRouter, and other external providers, API keys, connected accounts, and custom services now require CleverPane Pro. Existing settings and provider credentials are preserved.",
     "mandatory": false
   },
-  "signature": "HAzRsBScOfx8nv9q6SF+1c+nn/HpkXYVfEcnjb74L/InFbu0P6uFWAYGtNRfklxj+CfKYFzOxjjZ0qD9h/s8AA=="
+  "signature": "SP/aZ+Y/E1ux06Z0w8bhDm8Du5AfCA04enqSYeJxXdaKGGRDKXYrzCah2JG1w1OgGoA65w1N1mXXh1PPn6s5DA=="
 }
