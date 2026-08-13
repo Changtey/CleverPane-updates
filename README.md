@@ -136,31 +136,32 @@ CleverPane is a Windows desktop application. It does not support Office for the 
 
 Existing settings under `%APPDATA%\MSOfficeAI` are preserved during an update. The legacy internal folder name remains for upgrade compatibility.
 
+New installations use `C:\Program Files\CleverPane`. Existing installations continue upgrading in their currently recorded folder to avoid duplicate program copies.
+
 ### Secure automatic updates
 
 CleverPane checks the signed GitHub update notice whenever a new Office session starts, then continues checking periodically while Office is in use. The current version is visible in the task pane, and Settings includes a clear **Check for updates** button. When a newer release is available, CleverPane shows the installed and available versions and asks **Yes** or **No** before downloading. It verifies the installer, waits for Word, Excel, and PowerPoint to close, and then starts the normal installer.
 
 ## Current release
 
-### CleverPane 1.0.27
+### CleverPane 1.0.28
 
-- Scans active Word, Excel, and PowerPoint files locally and shows a measured health score and useful next actions.
-- Adds one-click Word smart improvement and Excel Clean + Polish while preserving meaning, values, and formulas.
-- Adds PowerPoint visual intelligence, varied editable slide layouts, and reviewed smart-deck creation.
-- Adds drag-and-drop Office file attachments and a clearer activity display for long multi-step work.
-- Preserves existing settings and connected AI accounts during upgrade.
+- New installations now use `C:\Program Files\CleverPane`.
+- Existing installations continue upgrading safely in their currently recorded folder, avoiding duplicate or orphaned program files.
+- Existing settings and connected AI accounts remain preserved.
+- Automatic background update checks and the user approval prompt remain unchanged.
 
-Download: [CleverPane 1.0.27](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.27)
+Download: [CleverPane 1.0.28](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.28)
 
 SHA-256:
 
 ```text
-04f1ca27d98c64be5bc0931368d59a6ebc851193885e511e2e606f0771a8943c
+c45a0fd480b74f6378cdf1a5abcdfff3b15dc67b10ad47c5b7c938a4ea27576e
 ```
 
 ## Development and verification status
 
-CleverPane is actively developed. Version 1.0.27 passed **216 automated checks**.
+CleverPane is actively developed. Version 1.0.28 passed **19 focused updater and installer checks**. Its application features are unchanged from version 1.0.27, which passed **216 automated checks**.
 
 Important current limits:
 
