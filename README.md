@@ -71,7 +71,7 @@ CleverPane Pro unlocks external AI services and advanced connections:
 - Custom OpenAI-compatible and Anthropic-compatible services.
 
 CleverPane Pro is offered at Rs. 199 monthly or Rs. 1,999 yearly. Version
-1.0.32 uses Razorpay Test Mode so checkout, payment confirmation, plan refresh,
+1.0.33 uses Razorpay Test Mode so checkout, payment confirmation, plan refresh,
 and renewal cancellation can be verified without collecting real money. Live
 payments remain disabled until the secure server is deliberately switched to
 Razorpay Live Mode.
@@ -153,26 +153,26 @@ CleverPane checks the signed GitHub update notice whenever a new Office session 
 
 ## Current release
 
-### CleverPane 1.0.32
+### CleverPane 1.0.33
 
-- Adds Razorpay Test checkout for the Rs. 199 monthly and Rs. 1,999 yearly CleverPane Pro plans.
-- Adds payment-status refresh and renewal cancellation controls inside CleverPane.
-- Test checkout does not collect real payments; Razorpay Live Mode remains disabled.
-- Google sign-in and the Free/Pro access restrictions remain enforced.
+- Adds permanent Developer access for approved Google accounts.
+- Developer accounts can use every CleverPane Pro AI feature without a subscription.
+- Google sign-in and the Free/Pro restrictions remain enforced for regular customers.
+- Razorpay remains in Test Mode and does not collect real payments.
 - Existing settings and connected AI accounts remain preserved.
 - Updates remain optional and require the user's approval before installation.
 
-Download: [CleverPane 1.0.32](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.32)
+Download: [CleverPane 1.0.33](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.33)
 
 SHA-256:
 
 ```text
-3fb26d6fe8f97350d715b31d43fbde30fc8533eb8dabbfdbeef787136e317cd5
+e1bc5b26013d413031ff6c75fc64032ab48f4a559d81ae0a15d9e1347e0ef859
 ```
 
 ## Development and verification status
 
-CleverPane 1.0.32 passed **292 automated checks**: 244 desktop checks and 48 server checks. Six live Office tests were excluded from the automated run because they require interactive desktop Office applications. The signed update notice and installer metadata were also verified before publication.
+CleverPane 1.0.33 passed **298 automated checks**: 247 desktop checks and 51 server checks. Six live Office tests were excluded from the automated run because they require interactive desktop Office applications. The signed update notice and installer metadata were also verified before publication.
 
 Important current limits:
 
