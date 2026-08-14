@@ -70,6 +70,12 @@ CleverPane Pro unlocks external AI services and advanced connections:
 - DeepSeek, Kimi, MiniMax, xAI/Grok, 9Router, OpenRouter, OmniRoute, and Together AI.
 - Custom OpenAI-compatible and Anthropic-compatible services.
 
+CleverPane Pro is offered at Rs. 199 monthly or Rs. 1,999 yearly. Version
+1.0.32 uses Razorpay Test Mode so checkout, payment confirmation, plan refresh,
+and renewal cancellation can be verified without collecting real money. Live
+payments remain disabled until the secure server is deliberately switched to
+Razorpay Live Mode.
+
 CleverPane Free AI uses IBM Granite through CleverPane's secure Oracle service and Cloudflare Workers AI. It processes only the text a customer submits. The Free option can write, rewrite, summarize, and explain, but it cannot inspect, edit, or save Office files, use Office tools, inspect the screen, or browse the web.
 
 The available model list is detected from the selected service when supported. Reasoning levels are shown only when the chosen model supports them. Pro customers can connect their own supported provider for the full Office agent and its document-editing tools. Provider charges, limits, and availability are determined by that provider.
@@ -147,26 +153,26 @@ CleverPane checks the signed GitHub update notice whenever a new Office session 
 
 ## Current release
 
-### CleverPane 1.0.31
+### CleverPane 1.0.32
 
-- Google sign-in is now required before the CleverPane side panel unlocks.
-- Free accounts can use only the built-in CleverPane Free AI model.
-- External providers, connected AI accounts, API keys, custom services, and advanced integrations now require CleverPane Pro.
-- The sign-in and plan rules are enforced by both the desktop app and CleverPane's secure server.
+- Adds Razorpay Test checkout for the Rs. 199 monthly and Rs. 1,999 yearly CleverPane Pro plans.
+- Adds payment-status refresh and renewal cancellation controls inside CleverPane.
+- Test checkout does not collect real payments; Razorpay Live Mode remains disabled.
+- Google sign-in and the Free/Pro access restrictions remain enforced.
 - Existing settings and connected AI accounts remain preserved.
 - Updates remain optional and require the user's approval before installation.
 
-Download: [CleverPane 1.0.31](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.31)
+Download: [CleverPane 1.0.32](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.32)
 
 SHA-256:
 
 ```text
-5e9001eec0dd95d9719cca0ff5ae21850b7c0d52053a58005c5b223e0898bda3
+3fb26d6fe8f97350d715b31d43fbde30fc8533eb8dabbfdbeef787136e317cd5
 ```
 
 ## Development and verification status
 
-CleverPane 1.0.31 passed **279 automated checks**: 242 desktop checks and 37 server checks. Six live Office tests were excluded from the automated run because they require interactive desktop Office applications. The signed update notice and installer metadata were also verified before publication.
+CleverPane 1.0.32 passed **292 automated checks**: 244 desktop checks and 48 server checks. Six live Office tests were excluded from the automated run because they require interactive desktop Office applications. The signed update notice and installer metadata were also verified before publication.
 
 Important current limits:
 
