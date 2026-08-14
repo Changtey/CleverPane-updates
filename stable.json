@@ -2,13 +2,13 @@
   "schema": 1,
   "channel": "stable",
   "release": {
-    "version": "1.0.32",
-    "published_at": "2026-08-14T01:13:16.315789Z",
-    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.32/CleverPane-Setup-1.0.32.exe",
-    "installer_sha256": "3fb26d6fe8f97350d715b31d43fbde30fc8533eb8dabbfdbeef787136e317cd5",
-    "installer_size": 72000262,
-    "notes": "Adds Razorpay Test checkout for CleverPane Pro monthly and yearly plans, payment-status refresh, and renewal cancellation. Google sign-in and Free/Pro access restrictions remain enforced. Test checkout does not collect real payments.",
+    "version": "1.0.33",
+    "published_at": "2026-08-14T05:00:08.584674Z",
+    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.33/CleverPane-Setup-1.0.33.exe",
+    "installer_sha256": "e1bc5b26013d413031ff6c75fc64032ab48f4a559d81ae0a15d9e1347e0ef859",
+    "installer_size": 72000395,
+    "notes": "Adds permanent Developer access for approved Google accounts and keeps all CleverPane Pro AI features available to them without a subscription.",
     "mandatory": false
   },
-  "signature": "0vkQjivmcZprkf42LmHALLBKDcBqPvI9O7YBsGtArCnjdC2E9+sFNlShF4KBTpPfteY3FmYKBeFzR1Taf/QPCw=="
+  "signature": "i1+f1CAjDONF6i/8QZQCiWpn1Ai68GplOqJcrLNQl4miuhDhAj24mRtQTjiQgaM/4xhtxyaOHZCfP6R/GlsGCg=="
 }
