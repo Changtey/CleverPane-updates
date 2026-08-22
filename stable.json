@@ -2,13 +2,13 @@
   "schema": 1,
   "channel": "stable",
   "release": {
-    "version": "1.0.33",
-    "published_at": "2026-08-14T05:00:08.584674Z",
-    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.33/CleverPane-Setup-1.0.33.exe",
-    "installer_sha256": "e1bc5b26013d413031ff6c75fc64032ab48f4a559d81ae0a15d9e1347e0ef859",
-    "installer_size": 72000395,
-    "notes": "Adds permanent Developer access for approved Google accounts and keeps all CleverPane Pro AI features available to them without a subscription.",
+    "version": "1.0.35",
+    "published_at": "2026-08-20T18:33:18.660321Z",
+    "installer_url": "https://github.com/Changtey/CleverPane-updates/releases/download/v1.0.35/CleverPane-Setup-1.0.35.exe",
+    "installer_sha256": "dd4644cf1115d4d0fbac0d76b08bd9d22ec4588a17325478b11517b50b781b48",
+    "installer_size": 68856017,
+    "notes": "Adds verified live context: every Office action rechecks the exact file, selection-sensitive edits stop if the target changes, quick previews stay local, New Chat remains empty after restart, and personal-learning reset now clears unfinished patterns.",
     "mandatory": false
   },
-  "signature": "i1+f1CAjDONF6i/8QZQCiWpn1Ai68GplOqJcrLNQl4miuhDhAj24mRtQTjiQgaM/4xhtxyaOHZCfP6R/GlsGCg=="
+  "signature": "KBw7wLaPdeCz8nJF4mS9fbYA+OVL4Kk74H4CvJMwbd56EK26OSmoCdA+CjUsL6kE9Ufg141e2upMS3Q9oW41Dw=="
 }
