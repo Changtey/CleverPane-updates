@@ -43,14 +43,15 @@ Examples:
 ### Context-aware work
 
 - Detects whether Word, Excel, or PowerPoint is active.
+- Rechecks the exact active file immediately before every Office action and stops without making changes if the file changed.
 - Uses the current selection as the default target.
+- Rechecks the selection, active sheet, or active slide before selection-sensitive edits and stops if the target moved.
 - Keeps chat history, model choice, drafts, attachments, and running work separate for each Office file.
-- Stops safely if the active document changes during a task.
 - Groups repeated Excel formatting into larger safe ranges when possible.
 
 ### File intelligence and guided improvements
 
-When a Word document, Excel workbook, or PowerPoint presentation becomes active, CleverPane reads a bounded local snapshot and shows a measured file-health score, useful next actions, and **Review health** and **Improve file** controls. The opening scan is not sent to an AI service until the user sends a request.
+When a Word document, Excel workbook, or PowerPoint presentation becomes active, CleverPane reads a bounded local snapshot and shows a measured file-health score, useful next actions, and **Review health** and **Improve file** controls. The raw opening preview stays local and is not silently sent to an AI service. When the user asks about the file, CleverPane reads fresh context from the exact active file.
 
 - **Word smart improvement:** reviews structure, dense paragraphs, typography, spacing, tables, and missing visual descriptions, then applies a reversible formatting and structure pass without changing facts or meaning.
 - **Excel Clean + Polish:** checks headers, formula errors, duplicates, mixed data types, blank regions, number formats, tables, freezing, and useful chart opportunities. The automatic polish does not change values or formulas.
@@ -71,7 +72,7 @@ CleverPane Pro unlocks external AI services and advanced connections:
 - Custom OpenAI-compatible and Anthropic-compatible services.
 
 CleverPane Pro is offered at Rs. 199 monthly or Rs. 1,999 yearly. Version
-1.0.34 uses Razorpay Test Mode so checkout, payment confirmation, plan refresh,
+1.0.35 uses Razorpay Test Mode so checkout, payment confirmation, plan refresh,
 and renewal cancellation can be verified without collecting real money. Live
 payments remain disabled until the secure server is deliberately switched to
 Razorpay Live Mode.
@@ -153,26 +154,28 @@ CleverPane checks the signed GitHub update notice whenever a new Office session 
 
 ## Current release
 
-### CleverPane 1.0.34
+### CleverPane 1.0.35 - Verified Live Context
 
-- Switches between Office documents faster by keeping the helper ready briefly after a document closes.
-- Reduces background work by avoiding repeated host updates and duplicate layout work.
-- Cleans up Office connections after scans and AI tasks to reduce stale connection failures.
-- Uses a smaller installer with unused Windows automation extras removed.
+- Rechecks the exact Word document, Excel workbook, or PowerPoint presentation before every Office action.
+- Stops selection-sensitive edits if the user moves to another paragraph, range, sheet, slide, or shape.
+- Keeps the raw opening preview local and reads fresh file context only after the user asks about it.
+- Keeps New Chat empty after restart.
+- Erase all clears both saved preferences and unfinished learning patterns.
+- Includes faster file switching, lighter background work, and safer Office connection cleanup.
 - Existing settings and connected AI accounts remain preserved.
 - Updates remain optional and require the user's approval before installation.
 
-Download: [CleverPane 1.0.34](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.34)
+Download: [CleverPane 1.0.35](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.35)
 
 SHA-256:
 
 ```text
-32911696ffb8ed6291d6371924aa8ebfeb3cf507decd5ad97f6bda69a51ee054
+dd4644cf1115d4d0fbac0d76b08bd9d22ec4588a17325478b11517b50b781b48
 ```
 
 ## Development and verification status
 
-CleverPane 1.0.34 passed **302 automated checks**: 251 desktop checks and 51 server checks. Six live Office tests were excluded from the automated run because they require interactive desktop Office applications. The signed update notice and installer metadata were also verified before publication.
+CleverPane 1.0.35 passed **308 automated checks**: 257 desktop checks and 51 server checks. Six live Office tests were excluded from the automated run because they require interactive desktop Office applications. The signed update notice and installer metadata were also verified before publication.
 
 Important current limits:
 
